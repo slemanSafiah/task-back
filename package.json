@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "dev": "nodemon index.js",
     "heroku-prebuild": "npm install -f",
     "heroku-postbuild": "npm run prod"
   },
   "engines": {
-    "node": "14.16.1",
-    "npm": "7.16.0"
+    "node": "16.13.1",
+    "npm": "8.5.1"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
     "body-parser": "^1.19.2",
     "cors": "^2.8.5",
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

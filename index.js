@@ -55,18 +55,18 @@ app.get("/getCards", (req, res) => {
   return res.status(200).json({
     data: [
       {
-        companyLogo: "/static/images/avatar/1.png",
-        avatars: ["/static/images/avatar/1.png", "/static/images/avatar/1.png"],
+        companyLogo: "https://www.designevo.com/res/templates/thumb_small/yellow-circle-and-social-network.webp",
+        avatars: ["https://mir-s3-cdn-cf.behance.net/projects/404/73c56092222591.Y3JvcCwxNzk4LDE0MDYsMTQ2LDA.jpg", "https://mir-s3-cdn-cf.behance.net/projects/404/73c56092222591.Y3JvcCwxNzk4LDE0MDYsMTQ2LDA.jpg"],
         progress: 70,
         color: "#88a8f2",
       },
       {
-        companyLogo: "/static/images/avatar/1.png",
+        companyLogo: "https://www.designevo.com/res/templates/thumb_small/yellow-circle-and-social-network.webp",
         avatars: [
-          "/static/images/avatar/1.png",
-          "/static/images/avatar/1.png",
-          "/static/images/avatar/1.png",
-          "/static/images/avatar/1.png",
+          "https://mir-s3-cdn-cf.behance.net/projects/404/73c56092222591.Y3JvcCwxNzk4LDE0MDYsMTQ2LDA.jpg",
+          "https://mir-s3-cdn-cf.behance.net/projects/404/73c56092222591.Y3JvcCwxNzk4LDE0MDYsMTQ2LDA.jpg",
+          "https://mir-s3-cdn-cf.behance.net/projects/404/73c56092222591.Y3JvcCwxNzk4LDE0MDYsMTQ2LDA.jpg",
+          "https://mir-s3-cdn-cf.behance.net/projects/404/73c56092222591.Y3JvcCwxNzk4LDE0MDYsMTQ2LDA.jpg",
         ],
         progress: 40,
         color: "#f58484",
@@ -80,7 +80,7 @@ app.get("/getProjects", (req, res) => {
     return res.status(200).json({
       data: [
         {
-          image: "/static/images/avatar/1.png",
+          image: "https://www.designevo.com/res/templates/thumb_small/yellow-circle-and-social-network.webp",
           name: "company 1",
           created: "Thu, 26 Oct",
           reporter: "sleman",
@@ -88,7 +88,7 @@ app.get("/getProjects", (req, res) => {
           stats: "In Progress",
         },
         {
-          image: "/static/images/avatar/1.png",
+          image: "https://www.designevo.com/res/templates/thumb_small/yellow-circle-and-social-network.webp",
           name: "company 2",
           created: "Thu, 26 Oct",
           reporter: "sleman",
@@ -96,7 +96,7 @@ app.get("/getProjects", (req, res) => {
           stats: "Open",
         },
         {
-          image: "/static/images/avatar/1.png",
+          image: "https://www.designevo.com/res/templates/thumb_small/yellow-circle-and-social-network.webp",
           name: "company 3",
           created: "Thu, 26 Oct",
           reporter: "sleman",
@@ -104,7 +104,7 @@ app.get("/getProjects", (req, res) => {
           stats: "In Progress",
         },
         {
-          image: "/static/images/avatar/1.png",
+          image: "https://www.designevo.com/res/templates/thumb_small/yellow-circle-and-social-network.webp",
           name: "company 4",
           created: "Thu, 26 Oct",
           reporter: "sleman",
@@ -112,7 +112,7 @@ app.get("/getProjects", (req, res) => {
           stats: "Open",
         },
         {
-          image: "/static/images/avatar/1.png",
+          image: "https://www.designevo.com/res/templates/thumb_small/yellow-circle-and-social-network.webp",
           name: "company 3",
           created: "Thu, 26 Oct",
           reporter: "sleman",
@@ -120,7 +120,7 @@ app.get("/getProjects", (req, res) => {
           stats: "In Progress",
         },
         {
-          image: "/static/images/avatar/1.png",
+          image: "https://www.designevo.com/res/templates/thumb_small/yellow-circle-and-social-network.webp",
           name: "company 4",
           created: "Thu, 26 Oct",
           reporter: "sleman",
